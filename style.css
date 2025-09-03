@@ -61,7 +61,6 @@ body{
 header{
     background-color: #FEEAE0;
     width: 100%;
-    height: 100vh;
 }
 .staticHeader{
     width: 100%;
@@ -109,7 +108,7 @@ header{
 }
 .mainHeaderContent p{
     font-weight: 450;
-    margin-top: 0.5em;
+    margin-top: 0.5rem;
 }
 .headerButtons{
     margin-top: 1.5rem;
@@ -616,5 +615,13 @@ footer{
     width: 1.5rem;
     path{
         fill: #DF2126;
+    }
+}
+@media (min-width:380px){
+    body{
+        font-size: 30px;
+    }
+    html{
+        font-size: 30px;
     }
 }
