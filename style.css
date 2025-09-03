@@ -617,11 +617,3 @@ footer{
         fill: #DF2126;
     }
 }
-@media (min-width:380px){
-    body{
-        font-size: 30px;
-    }
-    html{
-        font-size: 30px;
-    }
-}
