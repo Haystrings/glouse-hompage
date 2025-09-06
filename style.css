@@ -643,6 +643,13 @@ footer{
 .navbar{
     display: none;
 }
+.rights-container{
+    width: 93%;
+    display: flex;
+}
+#rights{
+    width: 100%;
+}
 @media (min-width:430px){
     html{
         font-size: 24px;
@@ -883,8 +890,7 @@ footer{
 }
 @media (min-width:1030px) { 
     .navContainer{
-        width: 70%;
-        gap: 30em;
+        width: 80%;
     }
     .product-section{
         width:65%;
