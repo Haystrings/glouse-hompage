@@ -227,8 +227,10 @@ header{
 }
 .benefit h2{
     font-weight: 600;
-    padding: 0 3rem 0 3rem;
+    width: 84%;
+    align-self: center;
     margin-top: 3rem;
+    letter-spacing: 0.5px;
     line-height: 1.8rem;
 }
 .benefit-container{
@@ -288,7 +290,7 @@ header{
 }
 .product-container{
     flex-wrap: wrap;
-    gap: 1.6em;
+    gap: 1em;
     width: 93%;
     padding-bottom: 2em;
 }
@@ -297,8 +299,8 @@ header{
     padding: 0.5em 0 0.5em 0;
     align-items: center;
     box-shadow: 0px 0.5rem 0.3rem -0.3rem rgba(0,0,0,0.3);
-    width: 11em;
-    height: 16em;
+    width: 10.3em;
+    height: 15em;
 
 }
 .product img{
@@ -313,13 +315,13 @@ header{
 }
 .product-details{
     text-align: left;
-    padding: 0 0.7rem 0 0.7rem;
+    padding: 0 1em 0 1em;
     overflow: hidden;
     margin-top: 0.5rem;
     width: 100%;
 }
 .product-details h4{
-    font-size: 1em;
+    font-size: 0.85em;
     font-weight: 500;
 }
 .price-container{
@@ -329,18 +331,18 @@ header{
 }
 .market-price{
     opacity: 0.8;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 .price{
     margin-top: 0.1rem;
-    font-size: 1em;
 }
 .price-cancel{
     text-decoration: line-through;
     opacity: 0.8;
-    font-size: 1em;
+    font-size: 0.85em;
 }
 .price-normal{
+    font-size: 0.85em;
     color: #DE591A;
 }
 .image0{
@@ -650,6 +652,12 @@ footer{
 #rights{
     width: 100%;
 }
+@media (min-width:400px){
+    .product{
+        width: 11.2em;
+        height: 15em;
+    }
+}
 @media (min-width:430px){
     html{
         font-size: 24px;
@@ -713,14 +721,16 @@ footer{
         }
     }
     .product{
-        width: 15em;
+        width: 18em;
         height: 18em;
         h4{
-            font-size: 1.2em;
+            font-size: 1.5em;
         }
         p{
-            font-size: 1em;
+            font-size: 1.2em;
         }
+        height: 22em;
+        width: 20em;
     }
     .location-section{
         width: 100%;
